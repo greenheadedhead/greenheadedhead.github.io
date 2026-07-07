@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(21, 34, 32);
+}
+
+h1 {
+    color: rgb(24, 202, 128);
+    padding-top: 100px;
+}
+
+.bar {
+    z-index: 1001;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(75, 188, 75);
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+#gallery {
+    position: relative;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* If there's no space in the right for the image, go to the next row */
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.museumImage {
+    display: block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+    float: left
+}
+
+img.big {
+    display: block;
+    width: 500px;
+    border-radius: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+#hiddenMessage {
+    display: none;
+}
+
+.smallText {
+    font-size: 10px
+}
+
+.bigText {
+    font-size: 50px
+}
+
+.button {
+    width: 32%;
+    height: 10%;
+    font-size: 25px;
+    background-color: rgb(126, 230, 40);
+    border-width: 3px;
+    border-color: green;
+    border-radius: 5px;
+    color: rgb(42, 147, 165);
+}
+
+.card {
+    margin: 0 auto;
+
+
+
+    border: 10px solid rgb(44, 189, 11);
+    background-color: rgb(15, 119, 58);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    height: 600px;
+
+}
